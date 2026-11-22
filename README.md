@@ -2,9 +2,7 @@
 
 A small full-stack app for capturing and tracking sales leads. Express + SQLite API, React (Vite) frontend, JWT auth so every user only sees their own leads.
 
-**Live demo:** *add your deployed link here*
-
-## Features
+**Live demo:** \*\*Live demo:\*\* https://lead-manager-v9pb.onrender.com (free tier: first load may take \~50s, and demo data may reset on restart)Features
 
 **Core**
 
