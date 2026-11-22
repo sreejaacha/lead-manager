@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: lead-manager
+    runtime: node
+    buildCommand: npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: /var/data/leads.db   # attach a persistent disk mounted at /var/data
